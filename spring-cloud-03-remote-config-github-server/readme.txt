@@ -16,3 +16,12 @@ http://localhost:8888/s2rates-default.json
 http://localhost:8888/s2rates/dev
 http://localhost:8888/s2lolo/dev
 http://localhost:8888/s2rates-dev.json
+
+
+http://localhost:8888/s1rates/default
+http://localhost:8888/s1rates/config2
+
+http://localhost:8888/s3rates/config2
+
+
+http://localhost:8888/s1rates-dev/config2
