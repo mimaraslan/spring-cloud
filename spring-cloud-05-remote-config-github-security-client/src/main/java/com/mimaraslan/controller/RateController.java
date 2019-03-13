@@ -21,6 +21,7 @@ public class RateController {
 
 	@Value("${price}")
 	String price;
+	
 
 	@RequestMapping("/rate")
 	public String getRate(Model m) {
@@ -30,6 +31,6 @@ public class RateController {
 		m.addAttribute("rate", rate);
 		m.addAttribute("price", price);
 
-		return "rateview";
+		return "index";
 	}
 }

@@ -2,14 +2,12 @@ package com.mimaraslan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableConfigServer 
-public class MainApplication  {
+public class SpringCloud07DbTaskLogsSinkRabbitmqApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MainApplication.class, args);
+		SpringApplication.run(SpringCloud07DbTaskLogsSinkRabbitmqApplication.class, args);
 	}
-	
+
 }
