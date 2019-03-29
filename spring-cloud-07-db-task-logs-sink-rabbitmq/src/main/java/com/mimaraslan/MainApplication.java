@@ -2,12 +2,14 @@ package com.mimaraslan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.task.launcher.annotation.EnableTaskLauncher;
 
 @SpringBootApplication
-public class SpringCloud07DbTaskLogsSinkRabbitmqApplication {
+@EnableTaskLauncher
+public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloud07DbTaskLogsSinkRabbitmqApplication.class, args);
+		SpringApplication.run(MainApplication.class, args);
 	}
 
 }
