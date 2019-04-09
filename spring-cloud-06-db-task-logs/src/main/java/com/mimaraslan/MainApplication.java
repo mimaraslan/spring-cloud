@@ -18,7 +18,4 @@ public class MainApplication {
 		return new TollProcessingTask();
 	}
 	
-
 }
-
-

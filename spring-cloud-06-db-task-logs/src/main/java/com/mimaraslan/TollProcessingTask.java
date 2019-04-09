@@ -7,7 +7,7 @@ public class TollProcessingTask implements CommandLineRunner {
 	@Override
 	public void run(String...args) throws Exception {
 		
-		//parameters: stationid, license plate, timestam
+		// parameters: stationid, 	license plate, 		timestamp
 		
 		if(null != args){
 			System.out.println("parameter length: " + args.length);
