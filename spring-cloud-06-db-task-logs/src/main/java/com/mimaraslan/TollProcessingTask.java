@@ -8,7 +8,6 @@ public class TollProcessingTask implements CommandLineRunner {
 	public void run(String...args) throws Exception {
 		
 		// parameters: stationid, 	license plate, 		timestamp
-		
 		if(null != args){
 			System.out.println("parameter length: " + args.length);
 			
@@ -20,8 +19,6 @@ public class TollProcessingTask implements CommandLineRunner {
 				System.out.println("Station ID is " + stationId + ", plate is " + licensePlate + ", timestamp is " + timestamp);
 			}
 		}
-		
-		System.out.println("Task completed.");
-		
+		System.out.println("Task completed.");	
 	}
 }
