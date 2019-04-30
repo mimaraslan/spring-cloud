@@ -9,9 +9,9 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.mimaraslan</groupId>
-	<artifactId>spring-cloud-07-db-task-logs-sink-rabbitmq</artifactId>
+	<artifactId>spring-cloud-07-db-task-logs-sink-rabbitmq-intake</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-07-db-task-logs-sink-rabbitmq</name>
+	<name>spring-cloud-07-db-task-logs-sink-rabbitmq-intake</name>
 	<description>Spring Cloud</description>
 
 	<properties>
@@ -39,6 +39,7 @@
 		</dependency>  	
 		
         <dependency>
+            <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
