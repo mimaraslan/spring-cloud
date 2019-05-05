@@ -1,0 +1,21 @@
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config1/station1 # default
+          #username: abc
+          #password: abc
+#          search-paths:
+#            - 'station*'
+#          repos:
+#             local:
+#                pattern: '*/local'
+#                uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config1 # alt
+#                search-paths:
+#                 - 'station*'
