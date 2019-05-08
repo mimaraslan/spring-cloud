@@ -1,3 +1,4 @@
+---
 server:
   port: 8888
               
@@ -6,20 +7,27 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config1
-          #username: mimaraslan
-          #password: MYPASSWORD
-          search-paths: 
-          - 'station*'
-          repos:
-            perf:
-              pattern:
-              - '*/config2'
-              uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config2
-              search-paths:
-              - 'station*'
-        encrypt:
-          enabled: false         
+          uri: https://github.com/mimaraslan/spring-cloud-config1 # default
+          #username: abc
+          #password: 123
+          search-paths:
+            - 'station*'
+#          repos:
+#             local:
+#                pattern: '*/local'
+#                uri: https://github.com/mimaraslan/spring-cloud-config2 # alt
+#                search-paths:
+#                 - 'station*'
+
+#          repos:
+#            perf:
+#              pattern:
+#              - '*/config2'
+#              uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config2
+#              search-paths:
+#              - 'station*'
+#        encrypt:
+#          enabled: false         
             
 
           
