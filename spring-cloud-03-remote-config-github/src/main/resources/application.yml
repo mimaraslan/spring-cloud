@@ -12,22 +12,12 @@ spring:
           #password: 123
           search-paths:
             - 'station*'
-#          repos:
-#             local:
-#                pattern: '*/local'
-#                uri: https://github.com/mimaraslan/spring-cloud-config2 # alt
-#                search-paths:
-#                 - 'station*'
-
-#          repos:
-#            perf:
-#              pattern:
-#              - '*/config2'
-#              uri: https://github.com/mimaraslan/spring-cloud/tree/master/spring-cloud-config2
-#              search-paths:
-#              - 'station*'
-#        encrypt:
-#          enabled: false         
+          repos:
+             local:
+                pattern: '*/config2'
+                uri: https://github.com/mimaraslan/spring-cloud-config2 # alt
+                search-paths:
+                 - 'station*'       
             
 
           
