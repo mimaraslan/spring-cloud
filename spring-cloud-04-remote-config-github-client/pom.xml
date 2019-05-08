@@ -9,10 +9,10 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.mimaraslan</groupId>
-	<artifactId>spring-cloud-github</artifactId>
+	<artifactId>spring-cloud-04-remote-config-github-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-github</name>
-	<description>Github project for Spring Cloud</description>
+	<name>spring-cloud-04-remote-config-github-client</name>
+	<description>Remote config-github client project for Spring Cloud</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,16 +22,13 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>		
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
