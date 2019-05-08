@@ -9,10 +9,10 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.mimaraslan</groupId>
-	<artifactId>spring-cloud-local-config</artifactId>
+	<artifactId>spring-cloud-02-local-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-local-config</name>
-	<description>Local config project for Spring Cloud</description>
+	<name>spring-cloud-02-local-config-server</name>
+	<description>Local server config project for Spring Cloud</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

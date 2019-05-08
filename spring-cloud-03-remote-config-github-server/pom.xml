@@ -12,7 +12,7 @@
 	<artifactId>spring-cloud-03-remote-config-github-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-cloud-03-remote-config-github-server</name>
-	<description>Remote config-github server project for Spring Cloud</description>
+	<description>Remote config-github client project for Spring Cloud</description>
 
 	<properties>
 		<java.version>1.8</java.version>
