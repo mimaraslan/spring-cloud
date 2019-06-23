@@ -1,4 +1,4 @@
-package com.mimaraslan;
+package com.mimaraslan.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -11,6 +11,8 @@ import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.cloud.task.launcher.TaskLaunchRequest;
 import org.springframework.messaging.support.GenericMessage;
 import org.springframework.stereotype.Component;
+
+import com.mimaraslan.controller.TaskController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
