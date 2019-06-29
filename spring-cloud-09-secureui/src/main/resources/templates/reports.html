@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Reports Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+</head>
+
+<body>
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+			<h1>Reports Page</h1>
+		
+		    <table class="table table-striped">
+		    	<tr><th>Station ID</th><th>Plate</th><th>Timestamp</th></tr>
+		    	<tr th:each="toll : ${tolls}">
+		    		<td th:text="${toll.stationId}"></td>
+		    		<td th:text="${toll.licensePlate}"></td>
+		    		<td th:text="${toll.timestamp}"></td>
+		    	</tr>
+		    </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+</body>
+</html>
