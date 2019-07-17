@@ -16,5 +16,4 @@ public class TollUsage {
 		this.licensePlate = licenseplate;
 		this.timestamp = timestamp;
 	}
-
 }

@@ -9,9 +9,9 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.mimaraslan</groupId>
-	<artifactId>spring-cloud-09-secureui</artifactId>
+	<artifactId>spring-cloud-09-secure-ui</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-09-secureui</name>
+	<name>spring-cloud-09-secure-ui</name>
 	<description>Spring Cloud</description>
 
 	<properties>
