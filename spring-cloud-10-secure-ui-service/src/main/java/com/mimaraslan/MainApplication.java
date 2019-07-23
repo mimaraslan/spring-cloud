@@ -13,6 +13,7 @@ import com.mimaraslan.service.CustomUserInfoTokenServices;
 
 @SpringBootApplication
 @EnableResourceServer
+@RestController
 public class MainApplication {
 
 	public static void main(String[] args) {
