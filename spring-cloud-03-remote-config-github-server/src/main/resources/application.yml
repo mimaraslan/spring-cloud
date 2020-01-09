@@ -18,6 +18,3 @@ spring:
                 uri: https://github.com/mimaraslan/spring-cloud-config2 # alternative
                 search-paths:
                  - 'station*'       
-            
-
-  
