@@ -7,18 +7,18 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-
-@EnableGlobalMethodSecurity(prePostEnabled=true,securedEnabled=true,jsr250Enabled=true)
-@EnableConfigServer
 @SpringBootApplication
+@EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true, jsr250Enabled = true)
+@EnableConfigServer
 public class MainApplication extends WebSecurityConfigurerAdapter {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MainApplication.class, args);
 	}
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().antMatchers("/decrypt/**").authenticated().and().csrf().disable();
-         http.authorizeRequests().antMatchers("/encrypt/**").authenticated().and().csrf().disable();
-     }
+		http.authorizeRequests().antMatchers("/encrypt/**").authenticated().and().csrf().disable();
+	}
 }

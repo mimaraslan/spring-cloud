@@ -15,7 +15,7 @@ spring:
           repos:
              local:
                 pattern: '*/config2'
-                uri: https://github.com/mimaraslan/spring-cloud-config2 # alt
+                uri: https://github.com/mimaraslan/spring-cloud-config2 # alternative
                 search-paths:
                  - 'station*'       
             
