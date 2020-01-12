@@ -22,7 +22,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //    	http.csrf().disable()
 //        	.authorizeRequests()
 //        	.antMatchers(HttpMethod.POST, "/encrypt/**").permitAll();
-    
+
+    	
     	// POST
     	// http://localhost:8888/encrypt
     	// http://localhost:8888/decrypt

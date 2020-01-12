@@ -11,5 +11,4 @@ public class MyRestResource {
 	public String SayHello(){
 		return "Hi, from Spring Cloud!";
 	}
-
 }

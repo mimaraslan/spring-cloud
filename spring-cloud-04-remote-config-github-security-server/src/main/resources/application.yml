@@ -19,4 +19,4 @@ spring:
                  - 'station*'  
   profiles:
     active:
-    - dev,prod
+    - dev,prod,test

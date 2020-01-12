@@ -6,8 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RefreshScope
 @Controller
+@RefreshScope
 public class RateController {
 
 	@Value("${processstart}")
@@ -17,7 +17,7 @@ public class RateController {
 	String processstop;
 
 	@Value("${rate}")
-	String rate;
+	String rate; 
 
 	@Value("${price}")
 	String price;
